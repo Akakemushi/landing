@@ -12,9 +12,10 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  background-color: #a04d1a;
+  background-color: #ece2d0;
   padding: 30px;
   border-radius: 10px;
+  text-align: center;
 }
 
 .card p {

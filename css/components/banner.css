@@ -9,13 +9,14 @@
 }
 
 .banner .container {
-  width: 1000px;
+  width: auto;
   background-color: #00000000;
   border-radius: 0px;
   padding: 0px;
-  justify-content: justify;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  text-align: left;
 }
 
 .banner h2 {

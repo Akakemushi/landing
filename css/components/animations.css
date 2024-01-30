@@ -1,0 +1,14 @@
+@keyframes hoverUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.hover-image {
+  width: 450px;
+  height: auto;
+  animation: hoverUpDown 2s infinite ease-in-out;
+}
