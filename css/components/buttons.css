@@ -1,0 +1,18 @@
+
+a.play-btn {
+  display: inline-block;
+  height: 39px;
+  width: 85px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #ca7df9;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0px 0px 10px white;
+}
+
+.play-btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}

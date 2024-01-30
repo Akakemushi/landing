@@ -1,0 +1,30 @@
+.card {
+  height: 300px;
+  width: 200px;
+  background-image: radial-gradient(#ece2d0, #723733);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #a04d1a;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.card p {
+  margin: 2px;
+  padding: 2px;
+  line-height: 20px;
+  font-family: 'Bree Serif', serif;
+}
+
+.card h3 {
+  font-size: xx-large;
+  line-height: 15px;
+}

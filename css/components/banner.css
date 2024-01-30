@@ -1,0 +1,27 @@
+.banner {
+  height: 500px;
+  width: auto;
+  background-image: url('../../images/dst\ wallpaper.jpg');
+  background-size: cover;
+  background-position: 0px -370px;
+  margin-bottom: 30px;
+  padding: 10px 100px 100px;
+}
+
+.banner .container {
+  width: 1000px;
+  background-color: #00000000;
+  border-radius: 0px;
+  padding: 0px;
+  justify-content: justify;
+  align-items: center;
+  flex-direction: row;
+}
+
+.banner h2 {
+  background-image: linear-gradient(to right, #ece2d0ff, #ece2d000);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}

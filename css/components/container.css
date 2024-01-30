@@ -1,0 +1,16 @@
+.container {
+  width: 700px;
+  height: auto;
+  background-color: #d5b9b299;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
