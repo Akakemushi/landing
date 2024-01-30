@@ -1,0 +1,93 @@
+.card {
+  position: relative;
+  height: 300px;
+  width: 200px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #ece2d0;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background: linear-gradient(#ece2d0, #723733);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(#723733, #ece2d0);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spring {
+  object-fit: cover;
+  object-position: 18% 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.feast {
+  object-fit: cover;
+  object-position: 18% 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.pigmen {
+  object-fit: cover;
+  object-position: 70% 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card p {
+  margin: 2px;
+  padding: 2px;
+  line-height: 20px;
+  font-family: 'Bree Serif', serif;
+}
+
+.card h3 {
+  font-size: xx-large;
+  line-height: 15px;
+}
+/* hello */

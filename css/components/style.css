@@ -11,9 +11,12 @@
 @import url('components/buttons.css');
 @import url('components/animations.css');
 
+
+/* Utilities */
 /* Utilities */
 body {
   padding-top: 0px;
+  padding-bottom: 40px;
   margin: 0;
   font-family: 'Shadows Into Light', cursive;
   font-size: x-large;
